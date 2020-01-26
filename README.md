@@ -15,8 +15,6 @@ Creating a custom gridworld (with
 puddles) of given shape, possible start states, reward signals and several
 other conditions, using OpenAI gym API. 
 
-![The puddle world](WhatsApp Image 2020-01-27 at 1.23.02 AM)
-
 Use them for training an
 agent using *TD methods*, such as Q-Learning and SARSA, and report
 performance plots, showing average rewards and average steps to goal per
