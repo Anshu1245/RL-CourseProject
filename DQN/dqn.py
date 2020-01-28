@@ -44,7 +44,7 @@ Q.add(Dense(24, activation = 'relu'))
 Q.add(Dense(env.action_space.n, activation = 'linear'))
 Q.compile(loss = 'mse', optimizer = adam(lr = 0.001))
 
-# the neural net to be #The "gamma" of the problem is assumed to be 0.95used as the target network
+# the neural net to be used as the target network
 Qt = Sequential()
 Qt.add(Dense(24, input_shape = env.observation_space.shape, activation = 'relu'))
 Qt.add(Dense(24, activation = 'relu'))
